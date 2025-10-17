@@ -65,13 +65,29 @@
 
 
 
-let i=10
-function greet(){
+// let i=10
+// function greet(){
 
-    console.log("hey"+i);               //hey10........hey1
-    i--
-    if(i>=1)
-    greet()
+//     console.log("hey"+i);               //hey10........hey1
+//     i--
+//     if(i>=1)
+//     greet()
+    
+// }
+// greet();
+
+
+
+
+//revrese order passing argument and parameter
+
+function greet(n){
+
+   
+   console.log(n);
+   if(n>1)
+    greet(n-1)
+   
     
 }
-greet();
+greet(10);
