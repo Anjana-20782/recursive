@@ -52,12 +52,25 @@
 
 
 
-let i=1
+// let i=1
+// function greet(){
+
+//     console.log("hey"+i);                //hey1..........hey10
+//     i++
+//     if(i<=10)
+//     greet()
+    
+// }
+// greet();
+
+
+
+let i=10
 function greet(){
 
-    console.log("hey"+i);
-    i++
-    if(i<=10)
+    console.log("hey"+i);               //hey10........hey1
+    i--
+    if(i>=1)
     greet()
     
 }
