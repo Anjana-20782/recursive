@@ -48,3 +48,17 @@
 //     return n * asd(n-1);
 // }
 // console.log(asd(5));
+
+
+
+
+let i=1
+function greet(){
+
+    console.log("hey"+i);
+    i++
+    if(i<=10)
+    greet()
+    
+}
+greet();
